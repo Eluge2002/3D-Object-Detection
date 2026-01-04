@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260104_182237",
+  "video_input": "data/videos/test.mp4",
+  "video_output": "outputs/annotated/run_20260104_182237.mp4",
+  "frames_total": 1078,
+  "frames_with_measurement": 146,
+  "frames_rejected": 198,
+  "fps_effective": 32.93161032311576,
+  "gating": {
+    "BORDER_MARGIN": 10,
+    "MAX_AREA_RATIO": 2.2,
+    "MAX_CENTER_DIAG_FRAC": 0.35
+  },
+  "kalman": {
+    "dt": 0.03333333333333333,
+    "q_pos": 1.0,
+    "q_vel": 15.0,
+    "r_xy": 30.0,
+    "r_z": 0.35
+  }
+}

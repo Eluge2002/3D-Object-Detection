@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260104_171507",
+  "video_input": "data/videos/test.mp4",
+  "video_output": "outputs/annotated/run_20260104_171507.mp4",
+  "frames_total": 1036,
+  "frames_with_measurement": 146,
+  "frames_rejected": 184,
+  "measurement_ratio": 0.14092664092664092,
+  "fps_effective": 31.008140921669668,
+  "gating": {
+    "BORDER_MARGIN": 10,
+    "MAX_AREA_RATIO": 2.2,
+    "MAX_CENTER_DIAG_FRAC": 0.35
+  },
+  "kalman": {
+    "dt": 0.03333333333333333,
+    "q_pos": 1.0,
+    "q_vel": 15.0,
+    "r_xy": 30.0,
+    "r_z": 0.35
+  },
+  "z_stats": {
+    "count": 330,
+    "min": 286.4935302734375,
+    "max": 896.1551513671875,
+    "mean": 419.554237874349
+  }
+}

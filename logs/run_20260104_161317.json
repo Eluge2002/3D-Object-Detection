@@ -1,0 +1,34 @@
+{
+  "timestamp": "20260104_161317",
+  "video_input": "data/videos/test.mp4",
+  "video_output": "outputs/annotated/run_20260104_161317.mp4",
+  "frames_total": 988,
+  "frames_with_target": 988,
+  "target_ratio": 1.0,
+  "fps_effective": 9.707411061150069,
+  "params": {
+    "YOLO_W": 960,
+    "YOLO_H": 540,
+    "YOLO_EVERY": 3,
+    "YOLO_CONF": 0.25,
+    "DEPTH_W": 384,
+    "DEPTH_H": 216,
+    "DEPTH_EVERY": 4,
+    "SHOW_EVERY": 2
+  },
+  "motion_counts": {
+    "moving left": 161,
+    "moving right": 151,
+    "moving forward": 158,
+    "moving backward": 147,
+    "levitating up": 33,
+    "levitating down": 35,
+    "steady": 326
+  },
+  "z_stats": {
+    "count": 988,
+    "min": 126.76647186279297,
+    "max": 1087.4927978515625,
+    "mean": 419.3610160920301
+  }
+}

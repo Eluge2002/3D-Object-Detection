@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260104_151311",
+  "video_input": "data/videos/test.mp4",
+  "video_output": "outputs/annotated/run_20260104_151311.mp4",
+  "frames_total": 813,
+  "frames_with_target": 762,
+  "target_ratio": 0.9372693726937269,
+  "fps_effective": 7.372494913289227,
+  "params": {
+    "ALPHA": 0.2,
+    "VOTE_WINDOW": 11,
+    "HOLD_FRAMES": 8,
+    "PIX_FRAC_X": 0.01,
+    "PIX_FRAC_Y": 0.01,
+    "Z_THRESH": 0.15,
+    "XY_TREND_MIN_SUM": 2,
+    "Z_TREND_MIN_SUM": 4,
+    "BORDER_MARGIN": 10
+  },
+  "motion_counts": {
+    "moving left": 120,
+    "moving right": 124,
+    "moving forward": 108,
+    "moving backward": 185,
+    "levitating up": 6,
+    "levitating down": 35,
+    "steady": 235
+  },
+  "z_stats": {
+    "count": 762,
+    "min": 290.9664001464844,
+    "max": 1081.577880859375,
+    "mean": 412.6614361860621
+  }
+}

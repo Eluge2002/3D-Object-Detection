@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260104_182333",
+  "video_input": "data/videos/test.mp4",
+  "video_output": "outputs/annotated/run_20260104_182333.mp4",
+  "frames_total": 1279,
+  "frames_with_measurement": 411,
+  "measurement_ratio": 0.32134480062548865,
+  "fps_effective": 27.79337498955258,
+  "kalman": {
+    "dt": 0.03333333333333333,
+    "q_pos": 1.0,
+    "q_vel": 15.0,
+    "r_xy": 30.0,
+    "r_z": 0.35
+  },
+  "z_stats": {
+    "count": 411,
+    "min": 286.4935302734375,
+    "max": 896.1551513671875,
+    "mean": 424.56246079493616
+  }
+}
